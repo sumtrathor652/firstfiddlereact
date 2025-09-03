@@ -50,23 +50,20 @@ function OurTeam() {
       <div className='container'>
         <div className='row'>
           <div className='col-md-4'>
-            <div className='card shadow ms-2 mb-4 '>
-              <img src="https://pn-paul.netlify.app/image/YPAshok.jpg" alt="" width="100%" />
-              <h4 className='text-center '>Y. P. ASHOK
+            <div className='card shadow ms-2 mb-4 photo1'>
+              <h4 className='text-center text-white' style={{paddingTop:"7cm"}}>Y. P. ASHOK
                 chairman</h4>
             </div>
           </div>
           <div className='col-md-4'>
-            <div className='card shadow ms-2 mb-4 '>
-              <img src="https://pn-paul.netlify.app/image/B.R.-Sachdeva.jpg" alt="" width="100%" />
-              <h4 className='text-center '>B.R. SACHDEVA
+            <div className='card shadow ms-2 mb-4  photo2'>
+              <h4 className='text-center  text-white ' style={{paddingTop:"7cm"}}>B.R. SACHDEVA
                 Director </h4>
             </div>
           </div>
           <div className='col-md-4'>
-            <div className='card shadow ms-2 mb-4 '>
-              <img src="https://pn-paul.netlify.app/image/Sagar-Bajaj.jpg" alt="" width="100%" />
-              <h4 className='text-center '>SAGAR BAJAJ
+            <div className='card shadow ms-2 mb-4 photo3'>
+              <h4 className='text-center text-white' style={{paddingTop:"7cm"}}>SAGAR BAJAJ
                 Corporate Chef</h4>
 
             </div>
@@ -76,31 +73,24 @@ function OurTeam() {
         {/* row div end */}
         <div className='row'>
           <div className='col-md-4'>
-            <div className='card shadow ms-2 mb-4 '>
-              <img src="https://pn-paul.netlify.app/image/JAY-PHOTO-1-1.jpg" alt="" width="100%" />
-              <h4 className='text-center '>JAY SHANKAR NATRAJ
+            <div className='card shadow ms-2 mb-4 photo4'>
+              <h4 className='text-center text-white 'style={{paddingTop:"7cm"}}>JAY SHANKAR NATRAJ
                 Franchise Lead</h4>
 
             </div>
           </div>
           <div className='col-md-4'>
-            <div className='card shadow ms-2 mb-4 '>
-              <img src="https://pn-paul.netlify.app/image/vibhutiPR.jpg" alt="" width="100%" />
-              <h4 className='text-center '>VIBHUTI SOOD
+            <div className='card shadow ms-2 mb-4  photo5'>
+              <h4 className='text-center  text-white'style={{paddingTop:"7cm"}}>VIBHUTI SOOD
                 PR And Communications Head</h4>
 
             </div>
           </div>
-
-
         </div>
         {/* row div end */}
       </div>
       {/* container div end */}
-
-
     </>
   )
 }
-
 export default OurTeam
