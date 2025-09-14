@@ -13,7 +13,7 @@ function OurTeam() {
       </div>
       <br />
       {/* continer div start */}
-      <div className='container'>
+      <div className='container-fluid'>
         <div className='row'>
           <div className='col-md-6'>
             <img src="https://pn-paul.netlify.app/image/priyank-our%20team.jpg" alt="" />
@@ -51,19 +51,19 @@ function OurTeam() {
         <div className='row'>
           <div className='col-md-4'>
             <div className='card shadow ms-2 mb-4 photo1'>
-              <h4 className='text-center text-white' style={{paddingTop:"7cm"}}>Y. P. ASHOK
+              <h4 className='text-center text-white' style={{ paddingTop: "7cm" }}>Y. P. ASHOK
                 chairman</h4>
             </div>
           </div>
           <div className='col-md-4'>
             <div className='card shadow ms-2 mb-4  photo2'>
-              <h4 className='text-center  text-white ' style={{paddingTop:"7cm"}}>B.R. SACHDEVA
+              <h4 className='text-center  text-white ' style={{ paddingTop: "7cm" }}>B.R. SACHDEVA
                 Director </h4>
             </div>
           </div>
           <div className='col-md-4'>
             <div className='card shadow ms-2 mb-4 photo3'>
-              <h4 className='text-center text-white' style={{paddingTop:"7cm"}}>SAGAR BAJAJ
+              <h4 className='text-center text-white' style={{ paddingTop: "7cm" }}>SAGAR BAJAJ
                 Corporate Chef</h4>
 
             </div>
@@ -74,14 +74,14 @@ function OurTeam() {
         <div className='row'>
           <div className='col-md-4'>
             <div className='card shadow ms-2 mb-4 photo4'>
-              <h4 className='text-center text-white 'style={{paddingTop:"7cm"}}>JAY SHANKAR NATRAJ
+              <h4 className='text-center text-white ' style={{ paddingTop: "7cm" }}>JAY SHANKAR NATRAJ
                 Franchise Lead</h4>
 
             </div>
           </div>
           <div className='col-md-4'>
             <div className='card shadow ms-2 mb-4  photo5'>
-              <h4 className='text-center  text-white'style={{paddingTop:"7cm"}}>VIBHUTI SOOD
+              <h4 className='text-center  text-white' style={{ paddingTop: "7cm" }}>VIBHUTI SOOD
                 PR And Communications Head</h4>
 
             </div>

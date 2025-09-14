@@ -34,11 +34,13 @@ body {
     letter-spacing: 1px;
     word-spacing: 1px;
     padding-right: 5px;
+    text-align: center;
 }
 
 .img {
     width: 80%;
 }
+
 .photo2 {
     background-image: url(https://pn-paul.netlify.app/image/B.R.-Sachdeva.jpg);
     width: 100%;
@@ -46,6 +48,7 @@ body {
     background-position: center;
     background-size: cover;
 }
+
 .photo1 {
     background-image: url(https://pn-paul.netlify.app/image/YPAshok.jpg);
     width: 100%;
@@ -53,6 +56,7 @@ body {
     background-position: center;
     background-size: cover;
 }
+
 .photo3 {
     background-image: url(https://pn-paul.netlify.app/image/Sagar-Bajaj.jpg);
     width: 100%;
@@ -60,6 +64,7 @@ body {
     background-position: center;
     background-size: cover;
 }
+
 .photo4 {
     background-image: url(https://pn-paul.netlify.app/image/JAY-PHOTO-1-1.jpg);
     width: 100%;
@@ -67,6 +72,7 @@ body {
     background-position: center;
     background-size: cover;
 }
+
 .photo5 {
     background-image: url(https://pn-paul.netlify.app/image/vibhutiPR.jpg);
     width: 100%;
@@ -74,6 +80,7 @@ body {
     background-position: center;
     background-size: cover;
 }
+
 .c {
     background-image: url(https://pn-paul.netlify.app/image/img%20background.jpg);
     width: 100%;
@@ -116,6 +123,7 @@ body {
     background-size: cover;
 
 }
+
 .ccccd {
     background-image: url(https://pn-paul.netlify.app/image/press-new-1.jpg);
     width: 100%;
@@ -123,6 +131,7 @@ body {
     background-position: center;
     background-size: cover;
 }
+
 .ccccdd {
     background-image: url(https://pn-paul.netlify.app/image/CONTACT-US.jpg);
     width: 100%;
@@ -171,9 +180,24 @@ body {
 
     .moblogo {
         display: block;
+        margin-right: 300px;
     }
 
     .img {
         width: 100%;
     }
+
+    .ccccc {
+        width: 120%;
+    }
+
+
+}
+
+@media (max-width: 412px) {
+    .ccccc {
+        width: 150%;
+    }
+
+
 }
