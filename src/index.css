@@ -171,7 +171,7 @@ body {
 
 @media(max-width:768px) {
     .navbar {
-        background: orange !important;
+        background: rgb(232, 155, 12) !important;
     }
 
     .weblogo {
@@ -180,24 +180,14 @@ body {
 
     .moblogo {
         display: block;
-        margin-right: 300px;
+        /* margin-right: 300px; */
     }
 
     .img {
         width: 100%;
     }
 
-    .ccccc {
-        width: 120%;
-    }
 
-
-}
-
-@media (max-width: 412px) {
-    .ccccc {
-        width: 150%;
-    }
 
 
 }
